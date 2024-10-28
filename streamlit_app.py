@@ -11,9 +11,11 @@ st.write(
 
 hide_streamlit_style = """
             <style>
-            MainMenu {visibility: hidden;}
+            #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
+            .stApp {bottom: 0px !important;}
+
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
