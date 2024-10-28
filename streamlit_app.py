@@ -14,7 +14,7 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
-            .stApp {bottom: 0px !important;}
+            .stApp {bottom: 0px !hidden;}
             .stDeployButton {visibility: hidden;}
             </style>
             """
