@@ -15,6 +15,7 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             .css-lv3fvcr {display: hidden;}
+            .streamlit-footer{display: hidden;}
       
             
             
