@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
-    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses.V1423 "
+    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses.V5 "
     "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
     "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
@@ -15,7 +15,23 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             footer:after {content:''; display: none;}
-
+            .stApp {
+                font-family: 'Arial', sans-serif;
+            }
+            
+            .stButton {
+                background-color: #f0f0f0;
+                border: none;
+                color: #333;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;   
+            
+                margin: 4px 2px;
+                cursor: pointer;
+            }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
