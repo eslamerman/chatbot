@@ -37,6 +37,30 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
+st.markdown("""
+<style>
+/* Your CSS styles here */
+.stApp {
+    font-family: 'Arial', sans-serif;
+}
+
+.stButton {
+    background-color: #f0f0f0;
+    border: none;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>   
+
+""", unsafe_allow_html=True)
+
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
 # via `st.secrets`, see https://docs.streamlit.io/develop/concepts/connections/secrets-management
