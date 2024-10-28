@@ -1,0 +1,5 @@
+[theme]
+base="light" # or "dark"
+
+[server]
+hideHostedWith="true"
