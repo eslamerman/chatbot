@@ -37,14 +37,7 @@ st.write(
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)'''
 
 
-st.markdown("""
-<style>
-/* Target the specific element, adjust the selector as needed */
-.stApp .stFooter {
-    display: none;
-}
-</style>
-""", unsafe_allow_html=True)
+
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
